@@ -250,13 +250,12 @@ footer ul li {
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 @media screen and (min-width: 768px) and (max-width: 959px) {
-    #wrapper {background-color: blue;}
 }
 
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    #wrapper {background-color: green; height: 1000px}
+    #wrapper {height: 1000px}
     #banner {height: 60px;}
     h1 {font-size:2.750em;}
     #about {width: 55%}
@@ -275,7 +274,7 @@ footer ul li {
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-    #wrapper {background-color: yellow; height: 1050px}
+    #wrapper {height: 1050px}
     #banner {height: 45px;}
     nav a {width: 15%}
     nav ul li {font-size: .5em}
