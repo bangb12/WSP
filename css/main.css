@@ -293,4 +293,5 @@ footer ul li {
     #whatsnew {width: 100%;}
     #whatsnew p {font-size:.65em; margin: 15px 0px 0px 40px}
     #whatsnew ul li {margin-bottom: 10px}
+    #comments {visibility: hidden; overflow: hidden}
 }	
