@@ -284,6 +284,7 @@ footer ul li {
     h1 {font-size:1.250em;}
     #ctaimage {visibility: hidden; height: 0px; width: 0px}
     #whyus {width: 95%; line-height: normal; text-align: center; border-left: 0px; margin-left: 0px }
+    #whyus p {font-size: .750em;}
     #maincontent {height: 265px; margin-left: 0px}
     #about {width: 100%;}
     #signup {width: 100%;}
@@ -293,5 +294,5 @@ footer ul li {
     #whatsnew {width: 100%;}
     #whatsnew p {font-size:.65em; margin: 15px 0px 0px 40px}
     #whatsnew ul li {margin-bottom: 10px}
-    #comments {visibility: hidden; overflow: hidden}
+    #comments {visibility: hidden; overflow: hidden; width: 0px; height: 0px;}
 }	
