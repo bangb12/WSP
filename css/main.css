@@ -286,7 +286,7 @@ footer ul li {
     #whyus {width: 95%; line-height: normal; text-align: center; border-left: 0px; margin-left: 0px }
     #whyus p {font-size: .750em;}
     #maincontent {height: 265px; margin-left: 0px}
-    #about {width: 100%;}
+    #about {width: 100%; border-left: 0px; margin-left: 0px}
     #signup {width: 100%;}
     footer li {font-size: 1em; visibility: hidden; width: 0px; height: 0px}
     footer p {width: 100%}
