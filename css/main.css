@@ -147,7 +147,7 @@ a:visited {
         
 #about {
     width: 62.179487179487%;
-    border: 0.063em solid black;
+    border: 1px solid black;
     margin: 10px;
     float: left;
 }
@@ -163,7 +163,7 @@ a:visited {
 }
 #signup {
     width: 31.794871794872%;
-    border: 0.063em solid black;
+    border: 1px solid black;
     float: left;
     margin: 10px;
 }
