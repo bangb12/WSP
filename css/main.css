@@ -41,16 +41,19 @@ body {
 }
 #wrapper {
     max-width: 778px;
+    position: relative;
     width: 100%;
-    height: 725px;
+    overflow: auto;
     margin: 0px auto;
     background-color: red;
     border: 1px solid black;
     background-color: rgb(95,166,255);
 }
+
 #banner {
     width: 100%;
     background-color: rgb(95,166,255);
+    position: relative;
     text-align: center;
     border-bottom: 1px solid black;
     height: 75px;
@@ -59,12 +62,23 @@ h1 {
     font: 4.000em 'Rockwell', sans-serif;
     color: white;
 }
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: block;
+    overflow: auto;
+}
+
 nav ul {
-    margin-left: 90px;
+    width: 80%;
+    text-align: center;
+    overflow: auto;
+    margin: 0px auto
 }
 nav ul li {
     text-align: center;
-    width: 12.564102564103%; /*98px;*/
+    width: 16.6%; /*98px;*/
     height: 48px;
     display: table-cell;
     vertical-align: middle;
@@ -74,7 +88,7 @@ nav ul li {
     border-right: 1px solid black;
 }
 nav a{
-    width: 12.564102564103%; /*98px;*/
+    width: 16.5%; /*98px;*/
     height: 48px;
     background-color: rgb(250,175,59);
     border-left: 1px solid black;
@@ -160,8 +174,34 @@ a:visited {
     background-color: rgb(250,175,59);
 }
 #signup form {
-    line-height: 51px;
+    line-height: 15px;
     text-align: center;
+}
+
+#signup input{
+    width: 79.155672823219%;
+    margin: auto;
+    margin-top: 5px;
+    display: block;
+    border: 1px solid black;
+    height: 25px;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 10px rgba (0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba (0, 0, 0, 0.3);
+}
+
+#signup input[type="button"] {
+    width: 26.385224274406%; /*100px*/
+    margin: auto;
+    margin-top: 15px;
+    height: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid black;
+}
+
+#signup input[type="button"]:hover {
+    background: rgb(250, 175, 59);
 }
 
         /*-------------------------------Footer----------------------------------------------*/
@@ -197,7 +237,36 @@ footer ul li {
     margin: 1.97889182058%
 }
 #contactforms ol {
-    margin-left: 32.981530343008%
+    width: 50%;
+    margin-left: 25%
+}
+
+#contactforms input{
+    width: 79.155672823219%;
+    margin: 0px auto;
+    display: block;
+    border: 1px solid black;
+    height: 25px;
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 10px rgba (0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px rgba (0, 0, 0, 0.3);
+}
+
+textarea {
+    margin: 0px auto;
+    display: block;
+}
+
+#contactforms input[type="button"] {
+    width: 26.385224274406%; /*100px*/
+    margin: 0px auto;
+    height: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid black;
+}
+#contactforms input[type="button"]:hover {
+    background: rgb(250, 175, 59);
 }
 
         /*-------------------------------What's New Page-------------------------------------*/
@@ -285,9 +354,10 @@ footer ul li {
     #ctaimage {visibility: hidden; height: 0px; width: 0px}
     #whyus {width: 95%; line-height: normal; text-align: center; border-left: 0px; margin-left: 0px }
     #whyus p {font-size: .750em;}
-    #maincontent {height: 265px; margin-left: 0px}
-    #about {width: 100%; border-left: 0px; margin-left: 0px}
-    #signup {width: 100%;}
+    #maincontent {width: 100%; height: 265px; margin-left: 0px; margin-right: 0px}
+    #about {width: 100%; border-left: 0px; margin-left: 0px; margin-right: 0px;}
+    #signup {width: 100%; margin-left:0px;}
+    footer {margin-left: 0px; width: 100%;}
     footer li {font-size: 1em; visibility: hidden; width: 0px; height: 0px}
     footer p {width: 100%}
     #teacherofthemonth {visibility: hidden; width: 0px; height: 0px}
@@ -295,4 +365,5 @@ footer ul li {
     #whatsnew p {font-size:.65em; margin: 15px 0px 0px 40px}
     #whatsnew ul li {margin-bottom: 10px}
     #comments {visibility: hidden; overflow: hidden; width: 0px; height: 0px;}
+    #contactforms input[type="button"] {font-size:.5em}
 }	
